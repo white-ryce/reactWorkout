@@ -1,0 +1,21 @@
+.headerStyle
+{
+    background-color: black;
+    color: #FCFBFC;
+}
+
+.headerText
+{
+    margin-left: 1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.topButton
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    color: #FFFeFC !important;
+    
+}

@@ -1,0 +1,22 @@
+
+.workOutCardStyle
+{
+    margin: 1rem;
+    width: 18rem;
+    background-color: #FCFBFC !important;
+    /*
+    #FCFBFC
+    #5DC1F2
+    */
+}
+
+.inputStyle
+{
+    margin-bottom: 1rem;
+}
+
+.titleStyle
+{
+    text-decoration: underline;
+}
+
