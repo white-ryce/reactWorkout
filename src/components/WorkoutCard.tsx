@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { JSXElementConstructor, ReactElement, ReactNode, useState } from 'react';
 import '../styles/WorkoutCardStyle.css'
 
 interface Props
@@ -10,15 +10,15 @@ interface Props
 
 function setSelectedIndex(workoutID: number, max:string)
 {
-
-    const stats = [workoutID,max];
-    console.log(stats);
+   console.log('Max:',max)
+   console.log('ID:', workoutID)
 }
 
 
 
 function WorkoutCard({title,workoutID}:Props)
 {
+    
     const[max,setMax] = useState('');
 
     return (
