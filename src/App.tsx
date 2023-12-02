@@ -5,8 +5,9 @@ import Header from './components/Header'
 import WorkoutCard from './components/WorkoutCard'
 import raw from './textFiles/testFile.txt'
 
-var x = 'Test Stuff'
+var x = ''
 
+/* Attmept to write to a file. Will need to practice more to have a better understanding of writing/reading a file*/
 function writePractice()
 {
     fetch(raw)
@@ -20,11 +21,8 @@ function writePractice()
 
 }
 
-
+/* Main function of the App. Where all components are declared. */
 function App(){
-
-  
-
   return (
     <>
       <div className='siteWrap'>

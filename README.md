@@ -1,27 +1,15 @@
-# React + TypeScript + Vite
+Design Goals For Project:
+-Create a workout page that could track the max of 4 common lifts.
+-Style for my desktop screen and mobile viewport.
+-Conceptualize concepts I would like to use in the future and attempt to implement them here. 
+-Get comfortable in the react ecosystem and discover points of strenghs and weaknesses.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+What I Learned:
+-Create reusable components that contain different information and act indepent of one another to reduce the need for creating new code.
+-Transfer information between components in the form of props to get a better understand of the concept and use cases of props.
+-Having a deeper understanding of the bootstrap library including buttons and form styling
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+What I Learned I Want To Learn:
+-Get more comfortable using useState to update data dynamically and store into a variable
+-Dynmaically create components in the use case that a user would like to add their own workouts to the list to track for future reference. 
+-How to use TS to read/write to a file

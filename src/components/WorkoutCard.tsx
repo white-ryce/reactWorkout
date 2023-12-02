@@ -1,13 +1,15 @@
 
-import { JSXElementConstructor, ReactElement, ReactNode, useState } from 'react';
+import {useState } from 'react';
 import '../styles/WorkoutCardStyle.css'
 
+/* Props passed in from the App.tsx to indicate the title and ID of a workout. To be used in function WorkoutCard*/
 interface Props
 {
     title:string;
     workoutID:number;
 }
 
+/* Used to display the max of a lift as well as the ID of the lift in the console*/
 function setSelectedIndex(workoutID: number, max:string)
 {
    console.log('Max:',max)
@@ -15,7 +17,7 @@ function setSelectedIndex(workoutID: number, max:string)
 }
 
 
-
+/* Main function of the component. The return function is being use to generate the card for each individual card whose data in filled in by the props*/
 function WorkoutCard({title,workoutID}:Props)
 {
     
